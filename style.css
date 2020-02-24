@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+    background: linear-gradient(to left, #000066 0%, #00ff00 100%)
+}
+h1{
+    color: rgb(12, 12, 12);
+    cursor: pointer;
+}
+
+.form{
+    position: relative;
+    top: 30%;
+    left: 30%;
+    width: 200px;
+    background-color: #cc0099;
+    background: linear-gradient(to left, #cc0099 0%, #ff3300 100%);
+    margin: 30px;
+    padding: 100px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.form input{
+    padding: 10px;
+    margin: 10px;
+    /* border-radius: 15px; */
+    text-align: center;
+    background: none;
+    color: rgb(16, 57, 110);
+    border: none;
+    /* border-color: blue; */
+    border-bottom: 2px solid blue;
+}
+.form input:focus{
+    border-color: rgb(5, 248, 66);
+    /* width: 100px; */
+    outline: none;
+    background-color: rgb(84, 146, 84);
+}
+button{
+   padding: 10px;
+   width: 50%;
+   border-radius: 10px;
+   background-color:white;
+   /* outline: none; */
+   border: 0;
+   outline: none;
+   /* x-offset | y-offset | blur-radius | spread-radius | color*/
+   box-shadow: 1px 2px 0 2px rgb(250, 244, 244), 0 0 0 0 rgb(247, 251, 255);
+   z-index: 3;
+}
+
+button:focus{
+    background-color: rgb(10, 241, 114);
+}
+
+
